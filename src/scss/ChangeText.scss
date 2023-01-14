@@ -1,0 +1,50 @@
+$green: #023f2c;
+$gray: #bbbbbb;
+
+* {
+  font-family: "Roboto", sans-serif;
+  transition: all 2s;
+}
+.wrap__button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  margin: 10px;
+}
+.changes-name__button {
+  outline: none;
+  height: 70px;
+
+  text-align: center;
+  min-width: 290px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid $green;
+  color: $green;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font: {
+    size: 32px;
+    weight: bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color: white;
+    background: $green;
+  }
+  &:active {
+    letter-spacing: 7px;
+  }
+}
+
+.user-information__p {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
